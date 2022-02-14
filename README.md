@@ -4,7 +4,7 @@ Calorie Tracker application using HTML, CSS, JS, Bootstrap, Django.
 ## Screenshots
 | Home | Delete |
 |------|--------|
-| <img src="./screenshots/ct_home.png" width="200"> | <img src="./screenshots/capture.png" width="200"> |
+| <img src="src/screenshots/ct_home.png" width="200"> | <img src="src/screenshots/capture.png" width="200"> |
 
 ### Clone the project
 
