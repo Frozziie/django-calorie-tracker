@@ -2,7 +2,7 @@
 Calorie Tracker application using HTML, CSS, JS, Bootstrap, Django.
 
 ## Screenshots
-<img src="./screenshots/calculator.png" width="600">
+<img src="./screenshots/home.jpg" width="600">
 
 ### Clone the project
 
