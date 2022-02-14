@@ -28,8 +28,6 @@ var calPer = (calories / 2000) * 100; // Get % calories based on 2000 expected c
 document.getElementsByClassName("progress-bar")[0].setAttribute("style", "width:" + calPer + "%");
 
 
-
-
 /* Nutrients donut chart */
 
 // Metrics
@@ -39,15 +37,15 @@ var proteinP = Math.round((protein / total) * 100); // protein %
 var fatsP = Math.round((fats / total) * 100); // fats %
 
 const labels = [
-    'Carbs', 
-    'Proteins', 
+    'Carbs',
+    'Proteins',
     'Fats',
 ];
 
 const data = {
     labels: labels,
     datasets: [{
-        label: 'My First dataset',
+        label: 'Donut',
         backgroundColor: [
             'rgba(255, 99, 132, 1)',
             'rgba(54, 162, 235, 1)',
@@ -69,7 +67,9 @@ const data = {
 const config = {
     type: 'doughnut',
     data: data,
-    options: {}
+    options: {
+        maintainAspectRatio: false,
+    }
 };
 
 const myChart = new Chart(document.getElementById('myChart'),config);
